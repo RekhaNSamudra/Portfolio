@@ -1,0 +1,38 @@
+[
+  {
+    "title": "HTML",
+    "imageSrc": "/assets/html.png"
+  },
+  {
+    "title": "CSS",
+    "imageSrc": "/assets/css.png"
+  },
+  {
+    "title": "React",
+    "imageSrc": "/assets/react.png"
+  },
+  {
+    "title": "JavaScript",
+    "imageSrc": "/assets/javascript.png"
+  },
+  {
+    "title": "Redux",
+    "imageSrc": "/assets/redux-icon.png"
+  },
+  {
+    "title": "Bootstrap",
+    "imageSrc": "/assets/bootstrap-5-logo-icon.png"
+  },
+  {
+    "title": "Tailwind",
+    "imageSrc": "/assets/tailwind-css-icon.png"
+  },
+  {
+    "title": "Git",
+    "imageSrc": "/assets/git.png"
+  },
+  {
+    "title": "VS Code",
+    "imageSrc": "/assets/vs-code.png"
+  }
+]

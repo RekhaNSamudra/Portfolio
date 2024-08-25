@@ -1,0 +1,23 @@
+[
+    {
+      "title": "Google Clone",
+      "imageSrc": "/assets/GoogleClone.png",
+      "description": "This project is made using React, Axios, TailwindCSS",
+      "demo": "https://marvelous-tanuki-e3ad65.netlify.app/",
+      "source": "https://github.com/RekhaNSamudra/Google-Clone"
+    },
+    {
+      "title": "Shopping Cart",
+      "imageSrc": "/assets/ShopKart.png",
+      "description": "This project is made using React, ContextAPI, Axios, TailwindCSS",
+      "demo": "https://warm-liger-89462b.netlify.app/",
+      "source": "https://www.github.com"
+    },
+    {
+      "title": "Shopping List",
+      "imageSrc": "/assets/ShoppingList.png",
+      "description": "This project is made using React, Redux Toolkit, Bootstrap",
+      "demo": "https://sage-creponne-856978.netlify.app/",
+      "source": "https://github.com/RekhaNSamudra/Shopping-List/tree/master"
+    }
+  ]

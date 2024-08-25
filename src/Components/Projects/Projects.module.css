@@ -1,0 +1,20 @@
+.container {
+  margin: 5% 10%;
+}
+
+.title {
+  font-size: 35px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.projects {
+  margin-top: 3%;
+  padding: 3%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+}

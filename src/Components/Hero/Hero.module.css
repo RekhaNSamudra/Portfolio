@@ -1,0 +1,79 @@
+.heroSection{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 3%;
+    padding: 10px 20px;
+    background: linear-gradient(90deg, #19376d 0%, rgba(25, 55, 109, 0) 100%);
+    border-radius: 20px;
+    padding-left: 50px;
+}
+
+.heroimage {
+    height: 500px;
+    width: 500px;
+}
+
+.hello {
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+.introName {
+    color: rgb(74, 150, 250);
+}
+
+.introText{
+    font-size: 3rem;
+    font-weight: bolder;
+    line-height: 4rem;
+}
+
+.introPara {
+    font-size: 1rem;
+    font-weight: 100;
+    margin-top: 10px;
+}
+
+.btn {
+    background: #fff;
+    border: none;
+    border-radius: 25px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100px;
+    margin-top: 30px;
+}
+
+.btnImg {
+    object-fit: cover;
+    margin: 0;
+    font-size: medium;
+}
+
+.btnText {
+    font-size: medium;
+    color: black;   
+}
+
+@media screen and (max-width: 768px) {
+    .heroSection {
+      flex-direction: column-reverse;
+    }
+
+    .heroimage {
+        height: 300px;
+        width: 300px;
+        align-self: self-start;
+    }
+
+    .btn {
+        margin-bottom: 20px;
+    }
+  
+    .content {
+      align-items: center;
+    }
+  }

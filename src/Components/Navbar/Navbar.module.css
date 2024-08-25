@@ -1,0 +1,95 @@
+.navbar {
+  color: white;
+  margin: 20px;
+  margin-top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  height: 100px;
+  width: auto;
+}
+
+/* Remove list dots */
+.navbar ul {
+  list-style-type: none;
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+}
+
+/* Resetting default link styles */
+.navbar ul li a {
+  text-decoration: none; /* Removes underline */
+  color: inherit; /* Inherits the text color from the parent */
+  padding: 5px;
+}
+
+.navmenu {
+  display: flex;
+  gap: 30px;
+  font-size: large;
+  font-weight: 700;
+  justify-content: center;
+}
+
+.logo {
+  object-fit: cover;
+  width: auto;
+  max-width: 200px;
+  height: 200px;
+}
+
+.menulink {
+  padding-bottom: 10px; /* Apply the padding in the default state */
+  border-bottom: 3px solid transparent; /* Transparent border initially */
+  transition: color 0.3s ease, border-bottom 0.3s ease; /* Smooth transition */
+}
+
+.menulink:hover {
+  color: rgb(74, 150, 250);
+
+  border-bottom: 3px solid rgb(74, 150, 250);
+}
+
+@media only screen and (max-width: 768px) {
+  .logo {
+    object-fit: cover;
+    width: auto;
+    max-width: 100px;
+    height: 100px;
+  }
+
+  .navmenu {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    /* background-color: #19376d; */
+    background-color: rgba(25, 55, 109, 0.8);
+    position: absolute;
+    top: 80px;
+    right: 40px;
+    padding: 20px !important;
+    border-radius: 10px;
+  }
+
+  .menuIcon {
+    display: block;
+    font-size: 30px;
+    cursor: pointer;
+  }
+
+  /* Add transition effect if desired */
+  .menuIcon i {
+    transition: transform 0.3s ease;
+  }
+
+  .open {
+    display: flex;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .menuIcon {
+    display: none; /* Hide the menu icon on desktop screens */
+  }
+}
